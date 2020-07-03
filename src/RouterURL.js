@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import Home from'./components/Home';
-import About from'./components/About';
 import App from'./App';
 import Gallery from'./components/Gallery';
 import Project from'./components/Project';
@@ -11,7 +10,7 @@ import Login from'./components/Login';
 class RouterURL extends React.Component {
 	render() {
 		return (
-			<Router>
+			<Router >
 			<Switch>
           <Route exact path="/">
             <Home />

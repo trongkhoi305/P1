@@ -31,7 +31,6 @@ class Header extends React.Component {
                       <div className="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                         <ul className="list-unstyled nav1 cl-effect-10">
                           <li><Link data-hover="Home" to="/" ><span>Home</span></Link></li>
-                          <li><Link data-hover="Database" to="/App"><span>Database</span></Link></li>
                           <li><Link data-hover="Project" to="/Project"><span>Project</span></Link></li>
                           <li><Link data-hover="Gallery" to="/Gallery"><span>Gallery</span></Link></li>
                           <li><Link data-hover="Introduce" to="/Introduce"><span>Introduce</span></Link></li>

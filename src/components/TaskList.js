@@ -18,10 +18,10 @@ class TaskList extends React.Component {
                 <thead>
                     <tr>
                         <th className="text-center">STT</th>
-                        <th className="text-center">Tên Mẫu </th>
-                        <th className="text-center">Độ c</th>
-                        <th className="text-center">Tần Số</th>
-                        <th className="text-center">Hz</th>
+                        <th className="text-center">Loại Quả </th>
+                        <th className="text-center">Thời Gian Đo</th>
+                        <th className="text-center">Nơi Mua</th>
+                        <th className="text-center">Nguồn Gốc</th>
                         <th className="text-center">Trạng Thái</th>
                         <th className="text-center">Hành Động</th>
                     </tr>
